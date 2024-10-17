@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="icon" href="https://cdn.wegic.ai/assets/onepage/thread/icon/default.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>تکالیف - وبسایت تکالیف روزانه کلاس</title>
+        <meta name="description" content="یک وبسایت برای نوشتن تکالیف روزانه کلاس و ارائه اطلاعات مهم به دانش آموزان و معلمان.">
+        <!-- twitter -->
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://cdn.wegic.ai/assets/onepage/thread/thumbnail/1846821323706933250/1729154139498.png"/>
+        <!-- og facebook -->
+        <meta property="og:url" content="https://wegic.app"/>
+        <meta property="og:title" content="وبسایت تکالیف روزانه کلاس - made with Wegic"/>
+        <meta property="og:description" content="یک وبسایت برای نوشتن تکالیف روزانه کلاس و ارائه اطلاعات مهم به دانش آموزان و معلمان."/>
+        <meta property="og:image" content="https://cdn.wegic.ai/assets/onepage/thread/thumbnail/1846821323706933250/1729154139498.png"/>
+        <style>
+            .wegic-badge {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                border-radius: 12px;
+                padding: 8px 14px;
+                background: rgba(255, 255, 255, 1);
+                box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 4px 6px rgba(0, 0, 0, 0.06);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 0px;
+                color: rgba(36, 36, 36, 1);
+                transition: all 0.3s;
+                font-family: ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                z-index: 9999;
+            }
+
+            .wegic-badge:hover {
+                background: rgba(245, 245, 245, 1);
+            }
+
+            .wegic-badge:active {
+                background: rgba(242, 242, 242, 1);
+                box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+            }
+
+            .wegic-badge img {
+                width: 20px;
+                height: 20px;
+                pointer-events: none;
+            }
+
+            #root {
+                height: 100vh;
+            }
+        </style>
+        <script type="module" crossorigin src="/static/js/chunk-index-DSdyo9yH.js"></script>
+        <link rel="stylesheet" crossorigin href="/static/css/index-Cl_cRGTq.css">
+    </head>
+    <body>
+        <div id="root">
+            <div style="opacity: 0;">
+                <div class="_block-container_1rloo_46" id="block-container" data-id="26-W4MFsTRI5OgA32nSN5" data-type="navigation" style="width: 100%; opacity: 1;">
+                    <section class="relative  top-0 z-40 w-full bg-white/80 backdrop-blur-xl dark:bg-black/80 md:px-8">
+                        <div class="w-full mx-auto max-w-7xl h-full hidden gap-5 md:flex md:items-center" style="padding-top: 12px; padding-bottom: 12px;">
+                            <div class="w-full h-full flex items-center justify-start">
+                                <div class="!w-auto object-cover _wrap_ejayn_46" data-element-type="image" style="transform: none; opacity: 1; object-fit: none; background: transparent; position: relative; border-radius: inherit;">
+                                    <img alt="logo" class="!w-auto object-cover _editable-img_ejayn_49" style="height: 40px;">
+                                </div>
+                            </div>
+                            <div class="w-full h-full flex items-center justify-center text-sm leading-[17px]">
+                                <nav class=" w-full h-full flex items-center justify-center text-[14px]">
+                                    <button data-element-type="button" class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60 _button-wrap_19cdc_46">
+                                        <span>
+                                            <div data-block-id="26-W4MFsTRI5OgA32nSN5" data-prop-key="navItems_0" data-element-type="text" data-link="link=tasks&amp;target=_blank&amp;text=%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">تکالیف</div>
+                                        </span>
+                                    </button>
+                                    <button data-element-type="button" class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60 _button-wrap_19cdc_46">
+                                        <span>
+                                            <div data-block-id="26-W4MFsTRI5OgA32nSN5" data-prop-key="navItems_1" data-element-type="text" data-link="link=about&amp;target=_blank&amp;text=%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87%20%D9%85%D8%A7" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">درباره ما</div>
+                                        </span>
+                                    </button>
+                                    <button data-element-type="button" class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60 _button-wrap_19cdc_46">
+                                        <span>
+                                            <div data-block-id="26-W4MFsTRI5OgA32nSN5" data-prop-key="navItems_2" data-element-type="text" data-link="link=contact&amp;target=_blank&amp;text=%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%20%D8%A8%D8%A7%20%D9%85%D8%A7" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">ارتباط با ما</div>
+                                        </span>
+                                    </button>
+                                </nav>
+                            </div>
+                            <div class=" w-full h-full flex items-center justify-end overflow-hidden gap-3">
+                                <button data-element-type="button" class="BTN-SECONDARY max-w-[180px] w-fit px-5 group text-[14px] whitespace-nowrap font-normal text-black flex gap-2 items-center rounded-full hover:bg-black/5 hover:transition-all hover:duration-300 _button-wrap_19cdc_46" style="height: 40px;">
+                                    <span style="width: 90%;">
+                                        <div data-block-id="26-W4MFsTRI5OgA32nSN5" data-prop-key="secondaryButton_textAttr" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=Join%20us" class="editable-text _editable_h6ufn_46 overflow-hidden text-ellipsis">Join us</div>
+                                    </span>
+                                    <span>
+                                        <div data-element-type="icon" class="text-sm text-black group-hover:translate-x-1 transition-all _icon-wrapper_4eggv_46" data-library="FontAwesome" data-link="link=&amp;target=_blank" style="position: relative;">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </button>
+                                <button data-element-type="button" class="BTN-PRIMARY max-w-[180px] w-fit px-[20px] group text-[14px] whitespace-nowrap font-normal flex gap-2 items-center rounded-full bg-blue-500 hover:bg-blue-600 hover:transition-all hover:duration-300 _button-wrap_19cdc_46" style="height: 40px; color: rgb(0, 0, 0);">
+                                    <span style="width: 90%;">
+                                        <div data-block-id="26-W4MFsTRI5OgA32nSN5" data-prop-key="primaryButton_textAttr" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=Contact%20us" class="editable-text _editable_h6ufn_46 overflow-hidden text-ellipsis">Contact us</div>
+                                    </span>
+                                    <span>
+                                        <div data-element-type="icon" class="text-sm group-hover:translate-x-1 transition-all _icon-wrapper_4eggv_46" data-library="FontAwesome" data-link="link=&amp;target=_blank" style="position: relative;">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="relative z-40 w-full h-full flex items-center md:hidden" style="padding-top: 12px; padding-bottom: 12px;">
+                            <div class="!w-auto px-6 object-cover _wrap_ejayn_46" data-element-type="image" style="transform: none; opacity: 1; object-fit: none; background: transparent; position: relative; border-radius: inherit;">
+                                <img alt="logo" class="!w-auto px-6 object-cover _editable-img_ejayn_49" style="height: 40px;">
+                            </div>
+                            <button class=" absolute right-6" tabindex="0">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-black dark:fill-white">
+                                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+                <div class="_block-container_1rloo_46" id="block-container" data-id="eXgUFMLLCOq7uKaFhtFt1" data-type="block" style="width: 100%; opacity: 1;">
+                    <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+                        <div class="IMAGE absolute inset-0 opacity-20 -z-10 h-full w-full object-cover object-right md:object-center rounded-lg bg-slate-100 _wrap_ejayn_46" data-element-type="image" style="transform: none; opacity: 1; object-fit: none; background: transparent;">
+                            <img alt="Design Studio" class="IMAGE absolute inset-0 opacity-20 -z-10 h-full w-full object-cover object-right md:object-center rounded-lg bg-slate-100 _editable-img_ejayn_49">
+                            <div class="_hover_ejayn_56 _selected_ejayn_76"></div>
+                        </div>
+                        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                            <div class="mx-auto max-w-2xl lg:mx-0">
+                                <h2 class="TITLE-PRIMARY text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                                    <span>
+                                        <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="title" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%26nbsp%3B%D9%85%D8%AF%D8%B1%D8%B3%D9%87%20%D9%85%D8%B7%D9%84%D8%A8%20%D9%81%D8%B1%D8%B2%D8%A7%D9%86%D9%87" class="editable-text _editable_h6ufn_46">&nbsp;مدرسه مطلب فرزانه</div>
+                                    </span>
+                                </h2>
+                                <p class="DESC mt-6 text-lg leading-8 text-gray-300">
+                                    <span>
+                                        <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="description" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D9%85%D8%AD%D9%84%DB%8C%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D9%88%20%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87%20%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81%20%D8%B1%D9%88%D8%B2%D8%A7%D9%86%D9%87%20%DA%A9%D9%84%D8%A7%D8%B3." class="editable-text _editable_h6ufn_46">محلی برای مدیریت و مشاهده تکالیف روزانه کلاس.</div>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+                                <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+                                    <div class="flex flex-col-reverse">
+                                        <dt class="TEXT-CONTENT text-base leading-7 text-gray-300">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_0_name" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B9%D9%84%D9%85%D8%A7%D9%86" class="editable-text _editable_h6ufn_46">تعداد معلمان</div>
+                                            </span>
+                                        </dt>
+                                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_0_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=25%3Cspan%20style%3D%22color%3A%20rgb%28255%20255%20255%20%2F%20var%28--tw-text-opacity%29%29%3B%20font-size%3A%201.5rem%3B%20letter-spacing%3A%20-0.025em%3B%20background-color%3A%20var%28--ai-create-color-theme-900%29%3B%20font-family%3A%20var%28--custom-body-font%29%3B%22%3E%2B%3C%2Fspan%3E" class="editable-text _editable_h6ufn_46">
+                                                    25<span style="color: rgb(255 255 255 / var(--tw-text-opacity)); font-size: 1.5rem; letter-spacing: -0.025em; background-color: var(--ai-create-color-theme-900); font-family: var(--custom-body-font);">+</span>
+                                                </div>
+                                            </span>
+                                        </dd>
+                                    </div>
+                                    <div class="flex flex-col-reverse">
+                                        <dt class="TEXT-CONTENT text-base leading-7 text-gray-300">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_1_name" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%E2%80%8C%D8%A2%D9%85%D9%88%D8%B2%D8%A7%D9%86" class="editable-text _editable_h6ufn_46">تعداد دانش‌آموزان</div>
+                                            </span>
+                                        </dt>
+                                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_1_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=800%2B" class="editable-text _editable_h6ufn_46">800+</div>
+                                            </span>
+                                        </dd>
+                                    </div>
+                                    <div class="flex flex-col-reverse">
+                                        <dt class="TEXT-CONTENT text-base leading-7 text-gray-300">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_2_name" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                            </span>
+                                        </dt>
+                                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_2_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                            </span>
+                                        </dd>
+                                    </div>
+                                    <div class="flex flex-col-reverse">
+                                        <dt class="TEXT-CONTENT text-base leading-7 text-gray-300">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_3_name" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                            </span>
+                                        </dt>
+                                        <dd class="text-2xl font-bold leading-9 tracking-tight text-white">
+                                            <span>
+                                                <div data-block-id="eXgUFMLLCOq7uKaFhtFt1" data-prop-key="stats_3_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                            </span>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="_block-container_1rloo_46" id="block-container" data-id="OySTW2rDZJGg2s23kh-eQ" data-type="block" style="width: 100%; opacity: 1;">
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                    <div class="relative isolate overflow-hidden bg-slate-900">
+                        <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
+                            <defs>
+                                <pattern id="pattern-background" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
+                                    <path d="M.5 200V.5H200" fill="none"></path>
+                                </pattern>
+                            </defs>
+                            <svg x="50%" y="-1" class="overflow-visible fill-[#bf360c]/20">
+                                <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0"></path>
+                            </svg>
+                            <rect width="100%" height="100%" stroke-width="0" fill="url(#pattern-background)"></rect>
+                        </svg>
+                        <div class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]" aria-hidden="true">
+                            <div class="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#ffcc80] to-[#ff7043] opacity-20" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%);"></div>
+                        </div>
+                        <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+                            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
+                                <div class="mt-24 sm:mt-32 lg:mt-16">
+                                    <button data-element-type="button" class="inline-flex items-center space-x-6 _button-wrap_19cdc_46"></button>
+                                </div>
+                                <h1 class="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl TITLE-PRIMARY">
+                                    <span>
+                                        <div data-block-id="OySTW2rDZJGg2s23kh-eQ" data-prop-key="heroTitle" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D8%A2%D8%B3%D8%A7%D9%86%20%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81%20%DA%A9%D9%84%D8%A7%D8%B3" class="editable-text _editable_h6ufn_46">مدیریت آسان تکالیف کلاس</div>
+                                    </span>
+                                </h1>
+                                <p class="mt-6 text-lg leading-8 text-slate-300 DESC">
+                                    <span>
+                                        <div data-block-id="OySTW2rDZJGg2s23kh-eQ" data-prop-key="heroDescription" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A8%D8%A7%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C%20%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87%20%D9%85%D8%A7%D8%8C%20%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81%20%D8%AE%D9%88%D8%AF%20%D8%B1%D8%A7%20%D8%A8%D9%87%20%D8%B1%D8%A7%D8%AD%D8%AA%DB%8C%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%DA%A9%D9%86%DB%8C%D8%AF%20%D9%88%20%D8%A7%D8%B2%20%D8%B2%D9%85%D8%A7%D9%86%20%D8%AE%D9%88%D8%AF%20%D8%A8%D9%87%DB%8C%D9%86%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%DA%A9%D9%86%DB%8C%D8%AF." class="editable-text _editable_h6ufn_46">با استفاده از ابزارهای پیشرفته ما، تکالیف خود را به راحتی مدیریت کنید و از زمان خود بهینه استفاده کنید.</div>
+                                    </span>
+                                </p>
+                                <div class="mt-10 flex items-center gap-x-6">
+                                    <button data-element-type="button" class="BTN-PRIMARY inline-flex items-center justify-center text-white bg-sky-500 font-medium border-black/10 dark:border-white/10 py-2 xl:py-3 px-6 focus:outline-none hover:bg-sky-400 rounded-lg text-sm sm:text-base 2xl:text-lg transition-colors duration-500 _button-wrap_19cdc_46">
+                                        <span>
+                                            <div data-block-id="OySTW2rDZJGg2s23kh-eQ" data-prop-key="primaryButtonAttr" data-element-type="text" data-link="link=%2Ftasks&amp;target=_blank&amp;text=%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87%20%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81%20%D8%A7%D9%85%D8%B1%D9%88%D8%B2" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">مشاهده تکالیف امروز</div>
+                                        </span>
+                                    </button>
+                                    <button data-element-type="button" class="TEXT-LINK text-sm group flex items-center gap-1 font-semibold text-white _button-wrap_19cdc_46"></button>
+                                </div>
+                            </div>
+                            <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+                                <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
+                                    <div class="IMAGE w-[76rem] h-[42.75rem] aspect-video object-cover rounded-md bg-white/5 shadow-lg ring-1 ring-black/10 dark:ring-white/10 _wrap_ejayn_46" data-element-type="image" style="transform: none; opacity: 1; object-fit: none; background: transparent; position: relative;">
+                                        <img alt="https://cdn.wegic.ai/assets/onepage/ai/image/06a4df90-42e0-4f21-9bba-c312ff5b5e86.jpeg" class="IMAGE w-[76rem] h-[42.75rem] aspect-video object-cover rounded-md bg-white/5 shadow-lg ring-1 ring-black/10 dark:ring-white/10 _editable-img_ejayn_49">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="_block-container_1rloo_46" id="block-container" data-id="JY2gswNfcN7XEvVnBR84g" data-type="block" style="width: 100%; opacity: 1;">
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                    <div class="bg-white py-16 sm:py-20 dark:bg-slate-800">
+                        <div>
+                            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                                <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                                    <div class="lg:pr-4">
+                                        <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                                            <div class="absolute inset-0 h-full w-full object-cover _wrap_ejayn_46" data-element-type="image" style="transform: none; opacity: 1; object-fit: none; background: transparent; border-radius: inherit;">
+                                                <img alt="https://cdn.wegic.ai/assets/onepage/ai/image/0e1133de-e6b7-4ac6-a1ea-59d4e322a933.jpeg" class="absolute inset-0 h-full w-full object-cover _editable-img_ejayn_49">
+                                            </div>
+                                            <div class="absolute inset-0 bg-gray-900/60 mix-blend-multiply"></div>
+                                            <figure class="relative isolate">
+                                                <svg viewBox="0 0 162 128" fill="none" aria-hidden="true" class="absolute -left-2 -top-4 -z-10 h-32 stroke-white/20">
+                                                    <path id="0ef284b8-28c2-426e-9442-8655d393522e" d="M65.5697 118.507L65.8918 118.89C68.9503 116.314 71.367 113.253 73.1386 109.71C74.9162 106.155 75.8027 102.28 75.8027 98.0919C75.8027 94.237 75.16 90.6155 73.8708 87.2314C72.5851 83.8565 70.8137 80.9533 68.553 78.5292C66.4529 76.1079 63.9476 74.2482 61.0407 72.9536C58.2795 71.4949 55.276 70.767 52.0386 70.767C48.9935 70.767 46.4686 71.1668 44.4872 71.9924L44.4799 71.9955L44.4726 71.9988C42.7101 72.7999 41.1035 73.6831 39.6544 74.6492C38.2407 75.5916 36.8279 76.455 35.4159 77.2394L35.4047 77.2457L35.3938 77.2525C34.2318 77.9787 32.6713 78.3634 30.6736 78.3634C29.0405 78.3634 27.5131 77.2868 26.1274 74.8257C24.7483 72.2185 24.0519 69.2166 24.0519 65.8071C24.0519 60.0311 25.3782 54.4081 28.0373 48.9335C30.703 43.4454 34.3114 38.345 38.8667 33.6325C43.5812 28.761 49.0045 24.5159 55.1389 20.8979C60.1667 18.0071 65.4966 15.6179 71.1291 13.7305C73.8626 12.8145 75.8027 10.2968 75.8027 7.38572C75.8027 3.6497 72.6341 0.62247 68.8814 1.1527C61.1635 2.2432 53.7398 4.41426 46.6119 7.66522C37.5369 11.6459 29.5729 17.0612 22.7236 23.9105C16.0322 30.6019 10.618 38.4859 6.47981 47.558L6.47976 47.558L6.47682 47.5647C2.4901 56.6544 0.5 66.6148 0.5 77.4391C0.5 84.2996 1.61702 90.7679 3.85425 96.8404L3.8558 96.8445C6.08991 102.749 9.12394 108.02 12.959 112.654L12.959 112.654L12.9646 112.661C16.8027 117.138 21.2829 120.739 26.4034 123.459L26.4033 123.459L26.4144 123.465C31.5505 126.033 37.0873 127.316 43.0178 127.316C47.5035 127.316 51.6783 126.595 55.5376 125.148L55.5376 125.148L55.5477 125.144C59.5516 123.542 63.0052 121.456 65.9019 118.881L65.5697 118.507Z"></path>
+                                                    <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x="86"></use>
+                                                </svg>
+                                                <blockquote class="mt-6 text-xl font-semibold leading-8 text-white"></blockquote>
+                                                <figcaption class="mt-6 text-sm leading-6 text-gray-300">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="testimonialAuthor" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B1%D8%B6%D8%A7%DB%8C%DB%8C%D8%8C%20%D8%AF%D8%A7%D9%86%D8%B4%E2%80%8C%D8%A2%D9%85%D9%88%D8%B2" class="editable-text _editable_h6ufn_46">محمد رضایی، دانش‌آموز</div>
+                                                    </span>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="text-base leading-7 text-gray-700 lg:max-w-lg dark:text-slate-300">
+                                            <h1 class="TITLE-PRIMARY mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-slate-50">
+                                                <span>
+                                                    <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyMissionTitle" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A8%DB%8C%D8%A7%DB%8C%D8%AF%20%D8%AA%D8%A7%20%D9%85%D8%AF%D8%B1%D8%B3%D9%87%20%D8%AE%D9%88%D8%AF%20%D8%B1%D8%A7%20%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF%20%DA%A9%D9%86%DB%8C%D9%85" class="editable-text _editable_h6ufn_46">بیاید تا مدرسه خود را هوشمند کنیم</div>
+                                                </span>
+                                            </h1>
+                                            <div class="max-w-xl">
+                                                <p class="DESC mt-6">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyMissionDescription_0" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A7%D8%B1%D8%A7%D8%A6%D9%87%20%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C%20%D9%86%D9%88%DB%8C%D9%86%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81%20%D8%A8%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%E2%80%8C%D8%A2%D9%85%D9%88%D8%B2%D8%A7%D9%86%20%D9%88%20%D9%85%D8%B9%D9%84%D9%85%D8%A7%D9%86." class="editable-text _editable_h6ufn_46">ارائه ابزارهای نوین برای مدیریت تکالیف به دانش‌آموزان و معلمان.</div>
+                                                    </span>
+                                                </p>
+                                                <p class="DESC mt-6">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyMissionDescription_1" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D8%A8%D8%B3%D8%AA%D8%B1%DB%8C%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AA%D8%B9%D8%A7%D9%85%D9%84%20%D9%88%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D9%87%D8%AA%D8%B1%20%D8%A8%DB%8C%D9%86%20%D9%85%D8%B9%D9%84%D9%85%D8%A7%D9%86%20%D9%88%20%D8%AF%D8%A7%D9%86%D8%B4%E2%80%8C%D8%A2%D9%85%D9%88%D8%B2%D8%A7%D9%86." class="editable-text _editable_h6ufn_46">ایجاد بستری برای تعامل و همکاری بهتر بین معلمان و دانش‌آموزان.</div>
+                                                    </span>
+                                                </p>
+                                                <p class="DESC mt-6">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyMissionDescription_2" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%AA%D8%B3%D9%87%DB%8C%D9%84%20%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF%20%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%88%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%A8%D8%A7%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%B1%D9%88%D8%B2." class="editable-text _editable_h6ufn_46">تسهیل فرآیند یادگیری و آموزش با استفاده از فناوری‌های روز.</div>
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <dl class="mt-10 grid grid-cols-2 gap-8 border-t border-black/10 pt-10 sm:grid-cols-4 dark:border-white/10">
+                                            <div>
+                                                <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-slate-400 text-nowrap">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_0_label" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dt>
+                                                <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900 dark:text-slate-50">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_0_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dd>
+                                            </div>
+                                            <div>
+                                                <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-slate-400 text-nowrap">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_1_label" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dt>
+                                                <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900 dark:text-slate-50">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_1_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dd>
+                                            </div>
+                                            <div>
+                                                <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-slate-400 text-nowrap">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_2_label" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dt>
+                                                <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900 dark:text-slate-50">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_2_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dd>
+                                            </div>
+                                            <div>
+                                                <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-slate-400 text-nowrap">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_3_label" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dt>
+                                                <dd class="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900 dark:text-slate-50">
+                                                    <span>
+                                                        <div data-block-id="JY2gswNfcN7XEvVnBR84g" data-prop-key="companyStats_3_value" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                    </span>
+                                                </dd>
+                                            </div>
+                                        </dl>
+                                        <div class="mt-10 flex">
+                                            <button data-element-type="button" class="TEXT-LINK flex items-center gap-1 group text-base font-semibold leading-7 text-sky-500 dark:text-sky-400 _button-wrap_19cdc_46"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="_block-container_1rloo_46" id="block-container" data-id="cxorv7duH9l7YuWcoWFp8" data-type="block" style="width: 100%; opacity: 1;">
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                    <div class="isolate bg-white px-6 py-16 sm:py-20 lg:px-8 dark:bg-slate-800">
+                        <div class="mx-auto max-w-2xl sm:text-center">
+                            <h2 class="TITLE-PRIMARY text-3xl font-bold tracking-tight text-slate-800 sm:text-4xl dark:text-white/80">
+                                <span>
+                                    <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="title" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%AA%D9%85%D8%A7%D8%B3%20%D8%A8%D8%A7%20%D9%85%D8%A7" class="editable-text _editable_h6ufn_46">تماس با ما</div>
+                                </span>
+                            </h2>
+                            <p class="DESC mt-2 text-lg leading-8 text-slate-700 dark:text-white/60">
+                                <span>
+                                    <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="description" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1%20%D9%88%20%DB%8C%D8%A7%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AE%D9%88%D8%AF%20%D8%A8%D8%A7%20%D9%85%D8%A7%20%D8%AA%D9%85%D8%A7%D8%B3%20%D8%A8%DA%AF%DB%8C%D8%B1%DB%8C%D8%AF." class="editable-text _editable_h6ufn_46">برای دریافت اطلاعات بیشتر و یا ارسال سوالات خود با ما تماس بگیرید.</div>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="mx-auto mt-20 max-w-lg space-y-16">
+                            <div>
+                                <div class="flex gap-x-6">
+                                    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-500">
+                                        <span>
+                                            <div data-element-type="icon" class="text-lg text-white _icon-wrapper_4eggv_46" aria-hidden="true" data-library="FontAwesome" data-link="link=&amp;target=_blank" style="position: relative;">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="message" class="svg-inline--fa fa-message " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"></path>
+                                                </svg>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <h3 class="TITLE-SECONDARY text-base font-semibold leading-7 text-slate-900 dark:text-white/80">
+                                            <span>
+                                                <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_0_title" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D9%85%D8%B4%D8%A7%D9%88%D8%B1%D9%87%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C" class="editable-text _editable_h6ufn_46">مشاوره تحصیلی</div>
+                                            </span>
+                                        </h3>
+                                        <p class="DESC mt-2 leading-7 text-slate-600 dark:text-white/60">
+                                            <span>
+                                                <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_0_description" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A8%D8%A7%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%D8%A7%D9%86%20%D9%85%D8%A7%20%D8%AF%D8%B1%20%D9%85%D9%88%D8%B1%D8%AF%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C%20%D8%AE%D9%88%D8%AF%20%D9%85%D8%B4%D9%88%D8%B1%D8%AA%20%DA%A9%D9%86%DB%8C%D8%AF." class="editable-text _editable_h6ufn_46">با کارشناسان ما در مورد برنامه‌های تحصیلی خود مشورت کنید.</div>
+                                            </span>
+                                        </p>
+                                        <p class="mt-4">
+                                            <button data-element-type="button" class="TEXT-LINK text-sm flex items-center gap-1 group font-semibold leading-6 text-sky-400 dark:text-sky-400 dark:hover:text-white _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_0_textAttr" data-element-type="text" data-link="link=%2Fcontact&amp;target=_blank&amp;text=%D8%B4%D8%B1%D9%88%D8%B9%20%DA%AF%D9%81%D8%AA%DA%AF%D9%88" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">شروع گفتگو</div>
+                                                </span>
+                                                <span>
+                                                    <div data-element-type="icon" class="group-hover:translate-x-1 transition-all duration-300 _icon-wrapper_4eggv_46" data-library="FontAwesome" data-link="link=&amp;target=_blank" style="position: relative;">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                            <path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex gap-x-6">
+                                    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-500">
+                                        <span>
+                                            <div data-element-type="icon" class="text-lg text-white _icon-wrapper_4eggv_46" aria-hidden="true" data-library="FontAwesome" data-link="link=&amp;target=_blank" style="position: relative;">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bug" class="svg-inline--fa fa-bug " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor" d="M256 0c53 0 96 43 96 96v3.6c0 15.7-12.7 28.4-28.4 28.4H188.4c-15.7 0-28.4-12.7-28.4-28.4V96c0-53 43-96 96-96zM41.4 105.4c12.5-12.5 32.8-12.5 45.3 0l64 64c.7 .7 1.3 1.4 1.9 2.1c14.2-7.3 30.4-11.4 47.5-11.4H312c17.1 0 33.2 4.1 47.5 11.4c.6-.7 1.2-1.4 1.9-2.1l64-64c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-64 64c-.7 .7-1.4 1.3-2.1 1.9c6.2 12 10.1 25.3 11.1 39.5H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H416c0 24.6-5.5 47.8-15.4 68.6c2.2 1.3 4.2 2.9 6 4.8l64 64c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-63.1-63.1c-24.5 21.8-55.8 36.2-90.3 39.6V240c0-8.8-7.2-16-16-16s-16 7.2-16 16V479.2c-34.5-3.4-65.8-17.8-90.3-39.6L86.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l64-64c1.9-1.9 3.9-3.4 6-4.8C101.5 367.8 96 344.6 96 320H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96.3c1.1-14.1 5-27.5 11.1-39.5c-.7-.6-1.4-1.2-2.1-1.9l-64-64c-12.5-12.5-12.5-32.8 0-45.3z"></path>
+                                                </svg>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <h3 class="TITLE-SECONDARY text-base font-semibold leading-7 text-slate-900 dark:text-white/80">
+                                            <span>
+                                                <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_1_title" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C%20%D9%81%D9%86%DB%8C" class="editable-text _editable_h6ufn_46">پشتیبانی فنی</div>
+                                            </span>
+                                        </h3>
+                                        <p class="DESC mt-2 leading-7 text-slate-600 dark:text-white/60">
+                                            <span>
+                                                <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_1_description" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AD%D9%84%20%D9%85%D8%B4%DA%A9%D9%84%D8%A7%D8%AA%20%D9%81%D9%86%DB%8C%20%D9%88%20%DB%8C%D8%A7%20%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AE%D9%88%D8%AF%20%D8%A8%D8%A7%20%D9%85%D8%A7%20%D8%AA%D9%85%D8%A7%D8%B3%20%D8%A8%DA%AF%DB%8C%D8%B1%DB%8C%D8%AF." class="editable-text _editable_h6ufn_46">برای حل مشکلات فنی و یا سوالات خود با ما تماس بگیرید.</div>
+                                            </span>
+                                        </p>
+                                        <p class="mt-4">
+                                            <button data-element-type="button" class="TEXT-LINK text-sm flex items-center gap-1 group font-semibold leading-6 text-sky-400 dark:text-sky-400 dark:hover:text-white _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_1_textAttr" data-element-type="text" data-link="link=%2Fcontact&amp;target=_blank&amp;text=%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">دریافت پشتیبانی</div>
+                                                </span>
+                                                <span>
+                                                    <div data-element-type="icon" class="group-hover:translate-x-1 transition-all duration-300 _icon-wrapper_4eggv_46" data-library="FontAwesome" data-link="link=&amp;target=_blank" style="position: relative;">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                            <path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex gap-x-6">
+                                    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-500"></div>
+                                    <div>
+                                        <h3 class="TITLE-SECONDARY text-base font-semibold leading-7 text-slate-900 dark:text-white/80">
+                                            <span>
+                                                <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_2_title" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                            </span>
+                                        </h3>
+                                        <p class="DESC mt-2 leading-7 text-slate-600 dark:text-white/60">
+                                            <span>
+                                                <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_2_description" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                            </span>
+                                        </p>
+                                        <p class="mt-4">
+                                            <button data-element-type="button" class="TEXT-LINK text-sm flex items-center gap-1 group font-semibold leading-6 text-sky-400 dark:text-sky-400 dark:hover:text-white _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-block-id="cxorv7duH9l7YuWcoWFp8" data-prop-key="contactOptions_2_textAttr" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=" class="editable-text _editable_h6ufn_46"></div>
+                                                </span>
+                                            </button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="_block-container_1rloo_46" id="block-container" data-id="ie__yvm33LxwuGe-ytNin" data-type="footer" style="width: 100%; opacity: 1;">
+                    <div style="height: 0px; opacity: 0;">
+                        <div class="_new-section-block_1hu1t_46" style="pointer-events: none;">
+                            <div class="_img_1hu1t_66"></div>
+                            <div class="_tips_1hu1t_74">In the right area, tell Kimmy what kind of section you want to add, like "I'd like to add a product introduction here."</div>
+                        </div>
+                    </div>
+                    <section class="w-full bg-slate-50 dark:bg-slate-800 py-20 px-6 md:px-8">
+                        <div>
+                            <div class="mx-auto max-w-7xl w-full flex flex-col gap-12">
+                                <div class="w-full flex flex-wrap gap-10 items-center justify-center">
+                                    <div>
+                                        <button data-element-type="button" class="TITLE-PRIMARY text-base font-semibold text-slate-900 dark:text-slate-50 _button-wrap_19cdc_46">
+                                            <span>
+                                                <div data-block-id="ie__yvm33LxwuGe-ytNin" data-prop-key="companySections_0_titleAttr" data-element-type="text" data-link="link=%2F&amp;target=_blank&amp;text=%D8%AE%D8%A7%D9%86%D9%87" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">خانه</div>
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button data-element-type="button" class="TITLE-PRIMARY text-base font-semibold text-slate-900 dark:text-slate-50 _button-wrap_19cdc_46">
+                                            <span>
+                                                <div data-block-id="ie__yvm33LxwuGe-ytNin" data-prop-key="companySections_1_titleAttr" data-element-type="text" data-link="link=%2Ftasks&amp;target=_blank&amp;text=%D8%AA%DA%A9%D8%A7%D9%84%DB%8C%D9%81" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">تکالیف</div>
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button data-element-type="button" class="TITLE-PRIMARY text-base font-semibold text-slate-900 dark:text-slate-50 _button-wrap_19cdc_46">
+                                            <span>
+                                                <div data-block-id="ie__yvm33LxwuGe-ytNin" data-prop-key="companySections_2_titleAttr" data-element-type="text" data-link="link=%2Fabout&amp;target=_blank&amp;text=%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87%20%D9%85%D8%A7" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">درباره ما</div>
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button data-element-type="button" class="TITLE-PRIMARY text-base font-semibold text-slate-900 dark:text-slate-50 _button-wrap_19cdc_46">
+                                            <span>
+                                                <div data-block-id="ie__yvm33LxwuGe-ytNin" data-prop-key="companySections_3_titleAttr" data-element-type="text" data-link="link=%2Fcontact&amp;target=_blank&amp;text=%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%20%D8%A8%D8%A7%20%D9%85%D8%A7" class="editable-text _editable_h6ufn_46 _cursor-pointer_h6ufn_50">ارتباط با ما</div>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <hr class="w-full border-black/10 dark:border-white/10">
+                                <div class="flex flex-col items-center gap-6 justify-between md:flex-row">
+                                    <ul class="flex items-center space-x-6">
+                                        <li href="#">
+                                            <button data-element-type="button" class="TEXT-LINK text-base text-slate-900 hover:text-sky-400 focus:text-sky-500 dark:text-slate-50 dark:hover:text-sky-400 dark:focus:text-sky-500 _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-element-type="icon" class="text-lg _icon-wrapper_4eggv_46 _cursor-pointer_4eggv_51" data-library="FontAwesome" data-link="link=https%3A%2F%2Fdiscord.gg%2FF7uEZwHTd6&amp;target=_blank" style="position: relative;">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" class="svg-inline--fa fa-discord " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                            <path fill="currentColor" d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li href="#">
+                                            <button data-element-type="button" class="TEXT-LINK text-base text-slate-900 hover:text-sky-400 focus:text-sky-500 dark:text-slate-50 dark:hover:text-sky-400 dark:focus:text-sky-500 _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-element-type="icon" class="text-lg _icon-wrapper_4eggv_46 _cursor-pointer_4eggv_51" data-library="FontAwesome" data-link="link=https%3A%2F%2Fhosein.lol&amp;target=_blank" style="position: relative;">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li href="#">
+                                            <button data-element-type="button" class="TEXT-LINK text-base text-slate-900 hover:text-sky-400 focus:text-sky-500 dark:text-slate-50 dark:hover:text-sky-400 dark:focus:text-sky-500 _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-element-type="icon" class="text-lg _icon-wrapper_4eggv_46 _cursor-pointer_4eggv_51" data-library="FontAwesome" data-link="link=https%3A%2F%2Fwww.instagram.com%2Fhoseinlol_0000%2F&amp;target=_blank" style="position: relative;">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                            <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li href="#">
+                                            <button data-element-type="button" class="TEXT-LINK text-base text-slate-900 hover:text-sky-400 focus:text-sky-500 dark:text-slate-50 dark:hover:text-sky-400 dark:focus:text-sky-500 _button-wrap_19cdc_46">
+                                                <span>
+                                                    <div data-element-type="icon" class="text-lg _icon-wrapper_4eggv_46 _cursor-pointer_4eggv_51" data-library="FontAwesome" data-link="link=https%3A%2F%2Fgithub.com%2Fhoseinlolready&amp;target=_blank" style="position: relative;">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                            <path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                    <p class="DESC text-sm text-center text-slate-600 dark:text-slate-400">
+                                        <span>
+                                            <div data-block-id="ie__yvm33LxwuGe-ytNin" data-prop-key="footerText" data-element-type="text" data-link="link=&amp;target=_blank&amp;text=Created%20by%20HOSEINLOL" class="editable-text _editable_h6ufn_46">Created by HOSEINLOL</div>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script src="/static/js/fontawesom@6.5.1.js" async></script>
+        <script src="/static/js/tailwindcss@3.3.5.js"></script>
+        <script>
+            tailwind.config = {
+                darkMode: 'class',
+                theme: {
+                    extend: {
+                        textColor: {
+                            slate: {
+                                50: '#f8fafc',
+                                100: '#f1f5f9',
+                                200: '#e2e8f0',
+                                300: '#cbd5e1',
+                                400: '#94a3b8',
+                                500: '#64748b',
+                                600: '#475569',
+                                700: '#334155',
+                                800: '#1e293b',
+                                900: '#0f172a',
+                                950: '#020617',
+                            },
+                            gray: {
+                                50: '#f9fafb',
+                                100: '#f3f4f6',
+                                200: '#e5e7eb',
+                                300: '#d1d5db',
+                                400: '#9ca3af',
+                                500: '#6b7280',
+                                600: '#4b5563',
+                                700: '#374151',
+                                800: '#1f2937',
+                                900: '#111827',
+                                950: '#030712',
+                            },
+                        },
+                        colors: {
+                            inherit: 'inherit',
+                            current: 'currentColor',
+                            transparent: 'transparent',
+                            black: '#000',
+                            white: '#fff',
+                            slate: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            gray: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            zinc: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            neutral: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            stone: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            red: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            orange: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            amber: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            yellow: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            lime: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            green: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            emerald: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            teal: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            cyan: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            sky: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            blue: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            indigo: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            violet: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            purple: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            fuchsia: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            pink: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                            rose: {
+                                50: 'var(--ai-create-color-theme-50)',
+                                100: 'var(--ai-create-color-theme-100)',
+                                200: 'var(--ai-create-color-theme-200)',
+                                300: 'var(--ai-create-color-theme-300)',
+                                400: 'var(--ai-create-color-theme-400)',
+                                500: 'var(--ai-create-color-theme-500)',
+                                600: 'var(--ai-create-color-theme-600)',
+                                700: 'var(--ai-create-color-theme-700)',
+                                800: 'var(--ai-create-color-theme-800)',
+                                900: 'var(--ai-create-color-theme-900)',
+                                950: 'var(--ai-create-color-theme-950)',
+                            },
+                        },
+                    },
+                },
+            };
+        </script>
+        <script type="module" src="https://js-design-aibuild.s3.us-west-2.amazonaws.com/assets/onepage/thread/js/1846823068437368834/1729152413047.js?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHABpxWgdjaeCxNs9foRn%2FuKwSKHJjngFk%2ByuqkBHIfCAiEA2501tFgSQCkH%2FPZcwn%2FWV7daXbn5ayzZIV3MrszxqQUquwUIKRAAGgw5NDc1NTkwMjk0NDYiDHVDwZ7uNFbfXjV8IiqYBbwinODIc9XYbJRRS3srBIihBBjz7Co%2FBL3G4QGYPeOZK%2Br%2FcBvT%2BuyZj5ycqY3GMk1KG8YTtOpsWFx%2FNhTAN0gnPKK2Y5cpr6VS2JTK2%2Bfz240dSqxMVo9R3xz2ukqmLjE2X5Rf6tp%2F4DNYnwuLYMHjmea7O3NnjpykJoQn2u7QmfXGj0BM0ci65qeBy7KEh%2Bzsho9oYG5vk1Eu7rD3HC6CjAKNmHYarHVdHkuvxBNMG8vdwcvJruQbFB4bcumSjT3ypEJnPm9DBOv18xeNBxZ2S6ULByPrZTT%2B%2FNv98V9bbIZHOt71vICyZ2ZtKL14ldR%2Bi8fn2a1KkeW%2Fda7DImhlNOmNFUe95fOLJ5AOAMMC79OqJAuZfIWisDH2HwYgtuV84QDYsZ6keaBmyLogT8rT6iuHKkGYdgPvAjR5boQ6ZBugMrcC1WAJh4mNGkJfipab%2FxpQRzSnQOOwHnhk601NZvbUqemw122rI2986Z56bFfSgmCiLyqab%2BdRRro611Uzw8W%2Fk5arUEuFAuuYFUAVihLziw0hFrNTedSO2BYeCMjgwBkVyzg5yXCLSnUVlU8Qh6vFffQKah72SJWTG%2FTynBdNBd1j4BXM6MGlGiZEDsQeH1siUIitD6i1b%2Fnrg2%2FV7UTIwVOarXQ8doItAurI5KpDAmodCUSjeNteTHxELrx3wcUgBDB%2Bcl3II5rBe1m9iCJ0p7%2F24GJrXFmsxXYntloddnGDf33SY3rXZVkHVQ48WX%2FS%2FY4o6cQECn7LMUISrj1sHWwaopfwAx%2B3ekue30xLAxSMlKuqGYCnol4tpUhrXZuBiN77YVrwA24SUjT3y6EduQmutpVZAU9HgvBy%2FJ7q0QdZvELPSejWa9VZO1eF8j0cKwUwmvjCuAY6sQFjGsRV5DtFwdU1%2F8MvBBwhsCDou6YJE9228unBQIs8yMI1SANOxmecRihM7EHOeXwpxkQNHhxSqd9y2FMX3t3fu5DwxIP40YK%2FLu2Yei3w%2FDhHOdDKQnVMiQvg%2BV5C8YZJaj%2BkyAgHvcFooXOM64i1H0e2doPuLOdFsykosXbi%2BLhRGwKLMKFqdhsjDX8xL5ZSGgXaFW2SBmyQtHnPeZWKvlG1LbCVNDOc%2Fpq2EfCVTG0%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241017T083554Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA5ZHXLLLDOWDBXF56%2F20241017%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=4273e0ae745e8a218f19b9ba9d9a7272b5bc8729971e8a93492caa946907e2b6"></script>
+        <!-- badge start-->
+        <!-- badge end-->
+        <!-- Google tag start -->
+        <!-- Google tag end -->
+    </body>
+</html>
